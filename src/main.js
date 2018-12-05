@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-import store from './store'
 import { Button, Cell, CellGroup, Checkbox, CheckboxGroup, Field, Icon, Dialog, Notify, Toast } from 'vant'
 
 Vue.config.productionTip = false
@@ -17,6 +16,5 @@ Toast.setDefaultOptions({
 })
 
 new Vue({
-  store,
   render: h => h(App)
 }).$mount('#app')
