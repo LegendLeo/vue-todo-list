@@ -1,6 +1,6 @@
 {
-  "name": "vue-todo-list",
-  "short_name": "vue-todo-list",
+  "name": "待办事项",
+  "short_name": "待办事项",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
