@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { Button, Cell, CellGroup, Checkbox, CheckboxGroup, Field, Icon, Dialog, Notify, Toast } from 'vant'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 Vue.use(Button)
